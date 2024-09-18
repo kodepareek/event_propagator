@@ -5,5 +5,13 @@ Depending on the event type the event is transformed and written into different 
 Consumers can listen to one or more topics that may be relevant to them
 
 ## How to use
+1. Install and run a kafka pipeline using the following docs -> https://kafka.apache.org/quickstart
+2. Clone the repo
+3. Install requirements 
+    ```
+    pip install requirements.txt
+    ```
+4. Create 2 topics with names -> PRODUCT_PRICE, COUNTRY_DISCOUNT
+5. Use docs in point 1 above to watch events flow in the correct topic
 
 
